@@ -1,0 +1,36 @@
+
+# Data handling and analysis
+pandas
+numpy
+scipy
+
+# Data visualization and EDA
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+imbalanced-learn
+
+# Model explainability
+shap
+
+# Model persistence
+joblib
+
+# Backend API
+fastapi
+uvicorn[standard]
+pydantic
+
+# Frontend dashboard
+streamlit
+plotly
+
+# Testing
+pytest
+httpx
+
+# Notebook environment
+jupyter
+ipykernel
