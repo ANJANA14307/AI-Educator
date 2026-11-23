@@ -1,0 +1,19 @@
+feature_name,description,data_type,included_in_training
+commit_id,Unique commit identifier; not a predictive feature.,str,False
+project,Project name; preserved as metadata.,str,False
+buggy,"Target label: 0 for non-defective, 1 for defective.",bool,False
+fix,Post-change fix status and possible target-adjacent metadata.,bool,False
+year,Time metadata; may be useful for chronological evaluation.,int64,False
+author_date,Timestamp metadata; may reveal chronology and is not a change metric.,int64,False
+la,Lines added in the commit.,int64,True
+ld,Lines deleted in the commit.,int64,True
+nf,Number of modified files.,int64,True
+nd,Number of directories modified.,int64,True
+ns,Number of subsystems modified.,int64,True
+ent,Entropy of the modified code.,float64,True
+ndev,Number of developers who changed the files.,float64,True
+age,Average age of modified files.,float64,True
+nuc,Number of unique changes to the modified files.,float64,True
+aexp,Author experience.,int64,True
+arexp,Author review experience.,float64,True
+asexp,Author subsystem experience.,float64,True
