@@ -6,8 +6,8 @@ __pycache__/
 venv/
 
 # Data and generated models
-data/raw/
-data/processed/
+
+
 *.joblib
 *.pkl
 
